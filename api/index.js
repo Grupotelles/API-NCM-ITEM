@@ -14,7 +14,7 @@ app.use((req, res, next) => {
     next();
 });
 
-
+//teste
 // Importante: adicionar middleware para analisar JSON no corpo da requisição
 app.use(express.json());
 
